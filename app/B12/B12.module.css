@@ -1,0 +1,58 @@
+.calendarDay {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .calendarDay:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .today {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .calendarContainer {
+    width: 300px;
+  }
+  
+  .calendarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .arrowButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .monthYear {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .calendarWeekdays {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calendarWeekday {
+    width: 14.28%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .calendarDays {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  

@@ -1,0 +1,32 @@
+.delete_part{
+    width: 500px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    h4{
+        font-size: large;
+    }
+    p{
+       color: gray;
+    }
+    .bottom_part {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .cancel_btn {
+            width: 100px;
+            border: 1px solid rgba(0, 0, 0, 0.308);
+            border-radius: 6px;
+            padding: 4px;
+        }
+        .delete_btn {
+            width: 100px;
+            background-color: red;
+            color: white;
+            border: 1px solid black;
+            border-radius: 6px;
+            padding: 4px;
+        }
+    }
+}
